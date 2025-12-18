@@ -252,7 +252,8 @@ func (c *Client) GetTVSeasonExternalIDs(
 // TVSeasonImage type is a struct for a single image.
 type TVSeasonImage struct {
 	ImageBase
-	Iso639_1 string `json:"iso_639_1"`
+	Iso639_1  string `json:"iso_639_1"`
+	Iso3166_1 string `json:"iso_3166_1"`
 }
 
 // TVSeasonImages type is a struct for images JSON response.
